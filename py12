@@ -1,0 +1,11 @@
+To check whether a number is divisible by 8 and 12 or not.\n",
+        "a=int(input(\"enter any no. :\"))\n",
+        "if(a%8==0 and a%12==0):\n",
+        "  print(\"{0} number is divisible by 8 and 12\".format(a))\n",
+        "else:\n",
+        "  print(\"{0} number is not divisible by 8 and 12\".format(a))"
+      ],
+      
+      
+      output:-"enter any no. :24\n",
+            "24 number is divisible by 8 and 12\n"
