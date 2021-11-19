@@ -1,0 +1,14 @@
+Program to find the digital product of a given number\n",
+        "#    ex: n=43   Digital product ----->4*3=12\n",
+        "def getProduct(n):\n",
+        "  product = 1\n",
+        "  num = str(n)\n",
+        "  for i in num:\n",
+        "    product = product * int(i)\n",
+        "  return product\n",
+        "  \n",
+        "n=int(input(\"Enter the number:\"))\n",
+        "print(getProduct(n))"
+      ],
+      
+      
