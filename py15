@@ -1,0 +1,38 @@
+Write a program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:\n",
+Percentage >= 90% : Grade A\n",
+"Percentage >= 80% : Grade B\n", 
+"Percentage >= 70% : Grade C\n",
+"Percentage >= 60% : Grade D\n",
+"Percentage >= 40% : Grade E\n"
+"Percentage < 40% :  Grade F'''\n",
+        total, average, percentage, grade = None, None, None, None
+total = subject_1 + subject_2 + subject_3 + subject_4 + subject_5
+average = total / 5.0
+percentage = (total / 500.0) * 100
+
+if average >= 90:
+    grade = 'A'
+elif average >= 80 and average < 90:
+    grade = 'B'
+elif average >= 70 and average < 80:
+    grade = 'C'
+elif average >= 60 and average < 70:
+    grade = 'D'
+else:
+    grade = 'E'
+
+
+print ("\nThe Total marks is:   \t", total, "/ 500.00")
+print ("\nThe Average marks is: \t", average)
+print ("\nThe Percentage is:    \t", percentage, "%")
+print ("\nThe Grade is:         \t", grade)
+
+output:-
+enter physics marks :60\n",
+            "enter chemistry marks :30\n",
+            "enter biology marks :25\n",
+            "enter marhematics marks :54\n",
+            "enter computer marks :64\n",
+            "Percentage =  46.6\n",
+            "Grade E\n"
+       
