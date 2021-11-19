@@ -1,0 +1,11 @@
+Program to find factorial of a given number.\n",
+        "fact=1\n",
+        "n=5\n",
+        "while(n!=0):\n",
+        "    fact=fact*n\n",
+        "    n=n-1\n",
+        "\n",
+        "print(\"fact\",fact)\n"
+      ],
+      
+      output:-"fact 120\n"
