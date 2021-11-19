@@ -1,0 +1,12 @@
+Find the sum of the series 3 +33 + 333 + 3333 + .. n terms\n",
+        "n=int(input(\"Enter the range of number:\"))\n",
+        "sum=0\n",
+        "p=3\n",
+        "for i in range(1,n+1):\n",
+        "    sum += p\n",
+        "    p=(p*10)+3\n",
+        "print(\"The sum of the series = \",sum)"
+      ],
+      
+      output:-"Enter the range of number:3\n",
+            "The sum of the series =  369\n"
