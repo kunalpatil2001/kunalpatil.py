@@ -1,0 +1,27 @@
+Write a program to input electricity unit charges and calculate total electricity bill according to the given condition:\n",
+        "For first 50 units Rs. 0.50/unit\n",
+        "For next 100 units Rs. 0.75/unit\n",
+        "For next 100 units Rs. 1.20/unit\n",
+        "For unit above 250 Rs. 1.50/unit\n",
+        "An additional surcharge of 20% is added to the bill'''\n",
+        "unit = int(input(\"enter units of electricity : \"))\n",
+        "if(unit<=50):\n",
+        "  bill=unit*0.50\n",
+        "  totalbill=bill+(bill/100)*20\n",
+        "  print(\"electricity bill is \",totalbill)\n",
+        "elif(unit<=150):\n",
+        "  bill=unit*0.75\n",
+        "  totalbill=bill+(bill/100)*20\n",
+        "  print(\"electricity bill is \",totalbill)\n",
+        "elif(unit<=250):\n",
+        "  bill=unit*1.20\n",
+        "  totalbill=bill+(bill/100)*20\n",
+        "  print(\"electricity bill is \",totalbill)\n",
+        "elif(unit>250):\n",
+        "  bill=unit*1.50\n",
+        "  totalbill=bill+(bill/100)*20\n",
+        "  print(\"electricity bill is \",totalbill)"
+      ],
+      
+      
+      
